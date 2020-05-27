@@ -1,5 +1,5 @@
 /** set up SDK */
-let recon = new ReconClient({ token: '4b8472d2-dd2a-4651-875d-a943ef661a40' }, process);
+let recon = new ReconClient({ token: '9352be12-a4f7-4e8a-a394-5be91c27b8da' }, process);
 
 function process() {
     /** add data (user actions) */
@@ -17,16 +17,12 @@ function process() {
     recon.recommend('marc').then(res => console.log('basic', res));
 
     /** anonymous recommendation */
-    /*
     recon.recommendAnonymously(['apple'], res => {
         console.log('anonymous', res);
     });
-    */
 
     /** anonymous recommendation by storage */
-    /*
     recon.addItem('apple');
     recon.addItem('windows');
     recon.recommendAnonymouslyByStorage(res => console.log('anonymous_storage', res))
-    */
 }
