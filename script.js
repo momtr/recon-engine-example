@@ -1,5 +1,5 @@
 /** set up SDK */
-let recon = new ReconClient({ token: 'adf1b63a-14cc-4aeb-b4d2-5af62defb527' }, process);
+let recon = new ReconClient({ token: '4b8472d2-dd2a-4651-875d-a943ef661a40' }, process);
 
 function process() {
     /** add data (user actions) */
